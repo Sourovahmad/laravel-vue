@@ -18,7 +18,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::post('test2',[testController::class,'store'])->name('test2');
-
-Route::view('test', 'welcome');
